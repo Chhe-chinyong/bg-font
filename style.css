@@ -1,0 +1,85 @@
+@font-face {
+    font-family: 'brightonsregular';
+    src: url('/fonts/brightons-webfont.eot');
+    src: url('/fonts/brightons-webfont.eot?#iefix') format('embedded-opentype'),
+         url('/fonts/brightons-webfont.woff2') format('woff2'),
+         url('/fonts/brightons-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+* {
+    box-sizing: border-box;
+}
+body {
+    font-family: 'Lato', 'Arial', sans-serif;
+    background-color: #ff5e57;
+    background-image: url('./images/coding_.svg');
+    background-repeat: no-repeat;
+    background-size: 80% 700px;
+    background-position-x: center;
+}
+
+header {
+    text-align: center;
+    color: white;
+}
+h1,h2,h3 {
+    font-family: 'brightonsregular','Lato', Arial, Helvetica, sans-serif;
+}
+ul{
+    list-style: none;
+    display: contents;
+}
+
+
+li a {
+    color: white;
+    text-decoration: underline;
+}
+
+
+main {
+    color: white;
+    text-align: center;
+    width: 70%;
+    margin: 0 auto;  
+}
+
+.images {
+    background-image: url('./images/undraw_To_the_stars_qhyy.svg');
+    background-size: 40% 30%;
+    background-repeat: no-repeat;
+    background-position: 0 80%;
+    background-attachment: local;
+}
+
+.images img{
+    width: 50%;
+    height: auto;
+}
+
+footer {
+    text-align: center;
+    color: white;
+    background-color: black;
+    height: 125px;
+
+}
+
+figcaption {
+    font-style: italic;
+}
+
+address {
+    color: white;
+    text-transform: capitalize;
+    font-size: 18px;
+}
+
+article {
+    text-align: justify;
+    text-indent: 30px;
+    word-spacing: 4px;
+    line-height: 24px;
+}
