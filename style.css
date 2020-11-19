@@ -4,8 +4,6 @@
     src: url('/fonts/brightons-webfont.eot?#iefix') format('embedded-opentype'),
          url('/fonts/brightons-webfont.woff2') format('woff2'),
          url('/fonts/brightons-webfont.woff') format('woff');
-    font-weight: normal;
-    font-style: normal;
 }
 
 * {
@@ -21,9 +19,10 @@ body {
 }
 
 header {
-    text-align: center;
     color: white;
+    text-align: center;
 }
+
 h1,h2,h3 {
     font-family: 'brightonsregular','Lato', Arial, Helvetica, sans-serif;
 }
